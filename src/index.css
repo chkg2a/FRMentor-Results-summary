@@ -34,7 +34,7 @@ p {
 }
 
 .results-container {
-  height: 47vh;
+  min-height: 50vh;
   max-width: 370px;
   border-radius: 25px;
   padding: 40px;
@@ -59,13 +59,14 @@ p {
 
 .result-score h1 {
   color: white;
-  font-size: 4.2rem;
-  line-height: 1.5rem;
+  font-size: 8vh;
+  line-height: 2vh;
 }
 
 .result-score p {
   color: hsl(252, 100%, 67%);
   margin: 0;
+  font-size: 2vh;
   line-height: 0;
 }
 
@@ -86,17 +87,18 @@ p {
 
 .remark {
   color: hsl(241, 100%, 89%);
+  font-size: 2vh;
 }
 
 .remarks h2 {
-  font-size: 2rem;
+  font-size: 4vh;
 }
 
 .summary-container {
   background: hsl(0, 0, 100%);
   border-radius: 0 25px 25px 0;
   box-shadow: 0 16px 16px hsl(0deg 0% 0% / 0.075);
-  height: 47vh;
+  min-height: 54vh;
   min-width: 370px;
   display: flex;
   flex-direction: column;
@@ -124,7 +126,9 @@ p {
 }
 
 .score-box img {
-  margin: auto;
+  /* margin: 0.8rem auto; */
+  margin-top:auto;
+  margin-bottom:auto;
   width: 20px;
   height: 20px;
 }
